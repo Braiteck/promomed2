@@ -1,0 +1,625 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+        --font_size_title_mini: 26px;
+    }
+
+
+    .swiper-button-next .tooltip,
+    .swiper-button-prev .tooltip
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    .swiper-button-next .tooltip:before
+    {
+        right: 18px;
+    }
+
+    .swiper-button-prev .tooltip:before
+    {
+        left: 18px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 20px;
+
+        height: 10px;
+    }
+
+    .swiper-pagination-bullet
+    {
+        width: 10px;
+        height: 10px;
+
+        border-width: 2px;
+    }
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 10px !important;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 14px 72px 14px 20px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 40px 0;
+    }
+
+    header.absolute + .page_head
+    {
+        padding-top: 108px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title span,
+    .first_section .title small
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .first_section .links
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .about_info .data2 .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+
+    /*-------------
+        Program
+    -------------*/
+    .program
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .program .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .program .tabs
+    {
+        flex-wrap: nowrap;
+    }
+
+    .program .tabs button
+    {
+        font-size: 14px;
+
+        width: 100%;
+        height: 36px;
+        padding: 9px 0 7px;
+    }
+
+
+    .program .item .time
+    {
+        font-size: 18px;
+    }
+
+
+    .program table td
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .program table td.time
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------
+        Schema
+    ------------*/
+    .schema
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .schema .swiper-button-next,
+    .schema .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .schema .download
+    {
+        position: relative;
+        bottom: 0;
+
+        width: 208px;
+        margin: 12px auto 0;
+    }
+
+
+
+    /*-----------------
+        Information
+    -----------------*/
+    .information
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .information .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .information .row
+    {
+        margin-bottom: -12px;
+        margin-left: 0;
+    }
+
+    .information .row > *
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .feedback .questions
+    {
+        max-width: 100%;
+    }
+
+
+    .feedback .questions .date
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .feedback .form
+    {
+        padding: 36px 40px 40px;
+    }
+
+
+    .feedback .form .success .icon
+    {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 20px;
+    }
+
+    .feedback .form .success .icon svg
+    {
+        width: 32px;
+        height: 22px;
+    }
+
+
+    .feedback .form .success .title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .feedback .form .success .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*---------------
+        Photobank
+    ---------------*/
+    .photobank
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .photobank .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .data
+    {
+        padding: 32px 36px 40px;
+    }
+
+
+    .action_form .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .action_form .form .agree
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .action_form .form .submit
+    {
+        width: 100%;
+    }
+
+
+    .action_form .success .icon
+    {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 20px;
+    }
+
+    .action_form .success .icon svg
+    {
+        width: 32px;
+        height: 22px;
+    }
+
+
+    .action_form .success .title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .action_form .success .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 24px 0 0;
+
+        background: var(--bg);
+    }
+
+
+    .contacts_info .data
+    {
+        width: 100%;
+
+        border-radius: 0;
+    }
+
+    .contacts_info .data:before
+    {
+        display: none;
+    }
+
+    .contacts_info .item
+    {
+        padding: 24px 0;
+    }
+
+
+    .contacts_info .path_info
+    {
+        position: relative;
+        z-index: 1;
+        left: 0;
+
+        width: 100%;
+        margin: 0 0 12px;
+        padding: 28px;
+    }
+
+    .contacts_info .path_info .close_btn
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+    .contacts_info .path_info .close_btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .contacts_info #map
+    {
+        position: relative;
+
+        height: 400px;
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------------
+        Head slider
+    -----------------*/
+    .head_slider
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .head_slider .cont
+    {
+        min-height: 280px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+
+    .head_slider .date
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        height: 20px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-----------------
+        Photos info
+    -----------------*/
+    .photos_info .text_block
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .photos_info .images .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+
+        --photos_gutter: 12px;
+    }
+
+    .photos_info .images .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    /*------------
+        Photos
+    ------------*/
+    .photos .year
+    {
+        font-size: 24px;
+        line-height: 32px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .photos .row
+    {
+        margin-left: 0;
+    }
+
+    .photos .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .photos .item .info
+    {
+        padding-right: 24px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .title
+    {
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+
+    .error_info .links a
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    footer .socials
+    {
+        top: 40px;
+
+        padding: 16px;
+    }
+
+
+    footer .socials > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    footer .socials .vk_link .icon
+    {
+        width: 30px;
+        height: 17px;
+    }
+
+    footer .socials .telegram_link .icon
+    {
+        width: 26px;
+        height: 22px;
+    }
+
+    footer .socials .youtube_link .icon
+    {
+        width: 29px;
+        height: 21px;
+    }
+
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: center;
+    }
+}
